@@ -469,6 +469,19 @@
                 </ul>
             </div>
 
+            <form>
+                <strong class="strong-text">Підпишіться на розсилку</strong>
+                <label class="label-footer">
+                    <input class="input-footer" type="text" name="" placeholder="E-mail">
+                </label>
+                <button class="button-footer" type="submit">
+                    Підписатися
+                    <svg class="icon-button-footer" width="24" height="24">
+                        <use href="./img/hw-six/symbol-defs.svg#icon-send"></use>
+                    </svg>
+                </button>
+            </form>
+
         </div>
  
     </footer>
@@ -480,7 +493,70 @@
                 <svg width="11px" height="11px">
                     <use href="./img/hw-five/symbol-defs.svg#icon-Vector"></use>
                 </svg>
-            </button>    
+            </button>
+
+            <form class="register-form" name="register-form">
+                <strong class="register-form-title">Залиште свої дані, ми вам передзвонимо</strong>
+
+                <div class="register-form-group" role="group">
+
+                    <lebel class="modal-lebel">
+                        <span class="span-modal">Ім'я</span>
+                        <input 
+                            class="input-modal" 
+                            type="text" 
+                            name=""
+                        >
+
+                        <svg class="icon-modal" width="18" height="18">
+                            <use href="./img/hw-six/symbol-defs.svg#icon-person"></use>
+                        </svg>
+                    </lebel>
+
+                    <lebel class="modal-lebel">
+                        <span class="span-modal">Телефон</span>
+                        <input 
+                            class="input-modal" 
+                            type="text" 
+                            name="">
+                        <svg class="icon-modal" width="18" height="18">
+                            <use href="./img/hw-six/symbol-defs.svg#icon-phone"></use>
+                        </svg>
+                    </lebel>
+
+                    <lebel class="modal-lebel">
+                        <span class="span-modal">Пошта</span>
+                        <input 
+                            class="input-modal" 
+                            type="email" 
+                            name="">
+                        <svg class="icon-modal" width="18" height="18">
+                            <use href="./img/hw-six/symbol-defs.svg#icon-email"></use>
+                        </svg>
+                    </lebel>
+
+                    <lebel class="modal-lebel-textarea">
+                        <span class="span-modal">Коментар</span>
+                        <textarea
+                            class="textarea-modal" 
+                            name="" 
+                            rows="5" 
+                            placeholder="Введіть текст"
+                        ></textarea>
+                    </lebel>
+
+                </div>
+
+                <lebel class="modal-lebel-checkbox">
+                    <input class="input-checkbox" type="checkbox" name="" >
+                    <span class="icon"></span>
+                    <span class="span-modal-checkbox">Погоджуюся з розсилкою та приймаю <a href="" class="link-modal">Умови договору</a></span>
+                </lebel>
+               
+                <button class="button-modal" type="submit">Відправити</button>
+                
+            </form>
+            
         </div>        
     </div>
 

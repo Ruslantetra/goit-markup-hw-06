@@ -465,6 +465,7 @@ p {
 
 .container-social-footer {
     padding-top: 12px;
+    margin-right: 93px;
 
 }
 
@@ -520,6 +521,86 @@ p {
 .link-social-footer:hover,
 .link-social-footer:focus {
     background-color: var(--accent-color);
+}
+
+.strong-text {
+    display: block;
+
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+
+    color: rgba(255, 255, 255, 1);
+
+    margin-bottom: 20px;
+}
+
+.label-footer {
+    display: inline-block;
+    margin-right: 12px;
+
+    
+}
+
+.input-footer {
+    width: 385px;
+    height: 50px;
+
+    background-color: var(--header-footer-color);
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+    padding: 15px 295px 15px 16px;
+}
+
+input[placeholder] {
+   font-family: var(--main-font);
+   font-size: 16px;
+   line-height: 1.25;
+
+   color: rgba(255, 255, 255, 0.6); 
+  
+}
+
+.button-footer {
+    position: relative;
+
+    padding: 0;
+    
+
+    width: 200px;
+    height: 50px;
+
+    border: none;
+    border-radius: 4px;
+
+    background-color: var(--accent-color);
+    color: rgba(255, 255, 255, 1);
+
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+
+    transition: box-shadow var(--animation);
+     
+}
+
+.button-footer:hover,
+.button-footer:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+
+.icon-button-footer{
+   position: absolute;
+   bottom: 13px;
+
+   margin-right: 28px;
+    margin-left: 10px;
 }
 
 
